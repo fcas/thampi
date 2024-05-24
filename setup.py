@@ -3,7 +3,7 @@ Create a Machine Learning Prediction Server on AWS Lambda.
 """
 from setuptools import find_packages, setup
 
-dependencies = ['click', 'cloudpickle', 'zappa==0.45.1', 'Flask==0.12.4', 'docker']
+dependencies = ['click', 'cloudpickle', 'zappa==0.45.1', 'Flask==2.2.5', 'docker']
 
 setup(
     name='thampi',
